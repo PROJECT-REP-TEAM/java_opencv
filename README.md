@@ -20,7 +20,7 @@ SpringMVC+AdminLTE 2+maven。考虑到之前demo测试，要么都是生成图�
 6. 有的小伙伴@武 在tomcat启动项目调用时会出现UnstatisfiedLinkError:no opencv_java2413 in java.library.path 异常信息，可以通过输出System.out.println(System.getProperty("java.library.path"));打印一下本地的library地址。将dll文件放到输出的地址中，如jdk的bin目录下;tomcat的bin目录等，重启tomcat就可以解决该问题。
 
 #### 演示地址
-    [demo演示：https://ocr.biecuihun.com/java_opencv ](https://ocr.biecuihun.com/java_opencv)
+[demo演示：https://ocr.biecuihun.com/java_opencv](https://ocr.biecuihun.com/java_opencv)
 
 #### 主要内容
 1. 图像二值化
